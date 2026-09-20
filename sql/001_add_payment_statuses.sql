@@ -1,0 +1,3 @@
+ALTER TABLE agnic.purchase_orders
+    MODIFY delivery_status ENUM ('PENDING', 'PROCESSING', 'SHIPPED', 'DELIVERED', 'CANCELLED',
+                                 'PROCESSINGPAYMENT', 'PAYMENTCOMPLETED') NOT NULL DEFAULT 'PENDING';

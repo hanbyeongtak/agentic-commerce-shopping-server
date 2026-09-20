@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pymysql
+httpx
+pydantic-settings
+PyJWT
+APScheduler
+cryptography
+embit
